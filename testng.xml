@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="APIAssignment" verbose="1">
+	<test name="APIAssignment suite" preserve-order="true">
+		<classes>
+			<class name="com.hellofresh.bookingapitestcases.CreateBookingTest" />
+			<class name="com.hellofresh.bookingapitestcases.GetBookingTest" />
+			<class name="com.hellofresh.bookingapitestcases.GetAllBookingsTest" />
+		</classes>
+	</test>
+</suite>
